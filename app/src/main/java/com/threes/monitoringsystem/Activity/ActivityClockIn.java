@@ -35,7 +35,8 @@ public class ActivityClockIn extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                finish();
+                //startActivity(new Intent(getApplicationContext(),MainActivity.class));
             }
         });
         toolbar.inflateMenu(R.menu.toolbar_menu);
